@@ -4,13 +4,14 @@
     var a = x;
     var b = 2;
 
-    // What does a equal?
-    // What does b equal?
-    // What does a + b equal?
+    // What does a equal? Error - without quotations around x it is not a string - error x is not defined
+    // What does b equal? b is equal to 2
+    // What does a + b equal? NaN
+
 
 #2
     var null;
-    // What is the value of null?
+    // What is the value of null? Error
 
 #3  
     var null = 2;
